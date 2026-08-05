@@ -16,13 +16,15 @@ Controle de Status Rígido: Utilização do tipo de dado ENUM na tabela pedidos 
 
 Gestão de Catálogo e Estoque: Centralização dos dados físicos dos produtos, permitindo o controle exato de disponibilidade antes da efetivação de novas vendas.
 
+Análise de Vendas: Estruturação preparada para extração de relatórios gerenciais (Ticket Médio, Volume de Vendas) cruzando entidades com o uso de JOIN e GROUP BY.
+
 Tecnologias Utilizadas
 
 MySQL Server 8.0: Motor do banco de dados relacional.
 
 MySQL Workbench: Criação de scripts, execução e engenharia reversa para modelagem visual.
 
-Linguagem SQL: Utilização de comandos DDL (criação de estrutura) e DML (manipulação e inserção de dados).
+Linguagem SQL: Utilização de comandos DDL (estruturação), DML (manipulação de dados) e DQL (extração e cruzamento analítico de dados).
 
 Git e GitHub: Versionamento de código e documentação de portfólio.
 
@@ -33,3 +35,5 @@ Estrutura do Repositório
 02_tabelas_zaptutil.sql: Script DDL com a modelagem das tabelas e chaves estrangeiras.
 
 03_insercao_dados.sql: Script DML contendo a carga inicial de dados para simulação de vendas e testes.
+
+04_relatorios_vendas.sql: Script DQL com consultas avançadas para extração de métricas de vendas e cruzamento relacional.
